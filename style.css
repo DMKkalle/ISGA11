@@ -1,0 +1,42 @@
+
+body {
+    
+    background-color: rgb(68, 1, 132);
+    color:white
+    
+}
+
+h1 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+h3 {
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:  rgb(51, 0, 99);
+}
+
+li {
+    float: left;
+
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center; 
+    padding: 14px 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: blueviolet;
+}
