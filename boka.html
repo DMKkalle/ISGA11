@@ -11,50 +11,63 @@
         <li><a href="boka.html"><b>Boka</b></a></li>
     </ul>
     <body>
-        <h1>Då var det dags för bokning!</h1>
+        
 
         <form>
-          <div>
-            <label for="namn">Ange för och efternamn</label>
-            <input type="text" id="namn" required>
-          </div>
-          <div>
-            <label for="epost">Ange din email</label>
-            <input type="email" id="epost" required>
-          </div>
-          <div>
-            <label for="namn">Ange födelsedatum</label>
-            <input type="datetime-local" id="födelsedatum" required>
-          </div>
-          <div>
-            <label for="datum">från vilket datum?</label>
-            <input type="datetime-local" id="datum" required>
-          </div>
-          <div>
-            <label for="datum">Till vilket datum?</label>
-            <input type="datetime-local" id="datum" required>
-          </div>
-          <div>
-            <label for="antal">Hur många personer ska boka</label>
-            <input type="number" min="1" value="2" id="antal">
-          </div>
-          <fieldset>
-            <legend>Vill du ha resförsäkring?</legend>
-            <label for="ja">Ja</label>
-            <input type="radio" id="ja" name="reseförsäkring">
-            <label for="nej">Nej</label>
-            <input type="radio" id="nej" name="reseförsäkring">
-          </fieldset>
-          <div>
-            <label for="comment">Skriv en feedback till oss</label><br>
-            <textarea id="comment" rows="7" cols="40"></textarea>
-          </div>
-          <div>
-            <input type="submit" value="Boka!"> 
-    
-          </div>
+          <h1>Då var det dags för bokning!</h1>
+          <div class ="con">
+                <div>
+                <label for="namn">Ange för och efternamn:</label>
+                <input type="text" id="namn" required>
+              </div>
+              <br>
+              <div>
+                <label for="epost">Ange din e-mail:</label>
+                <input type="email" id="epost" required>
+              </div>
+              <br>
+              <div>
+                <label for="namn">Ange födelsedatum:</label>
+                <input type="date" id="födelsedatum" required>
+              </div>
+              <br>
+              <div>
+                <label for="datum">Från vilket datum:</label>
+                <input type="date" id="datum" required>
+              </div>
+              <br>
+              <div>
+                <label for="datum">Till vilket datum:</label>
+                <input type="date" id="datum" required>
+              </div>
+              <br>
+              <div>
+                <label for="antal">Hur många väskor:</label>
+                <input type="number" min="0" value="0" id="antal">
+              </div>
+              <br>
+              <div class="knapp">
+              <fieldset>
+                <legend>Vill du ha reseförsäkring?</legend>
+                <label for="ja">Ja</label>
+                <input type="checkbox" id="ja" name="reseförsäkring">
+              </fieldset>
+              </div>
+              <br>
+              <div>
+                <label for="comment">Berätta om du har några extra önskningar</label>
+                <br>
+                <textarea id="comment" rows="7" cols="50"></textarea>
+              </div>
+              <div>
+                <input type="submit" value="Boka"> 
+        
+              </div>
+              </div>
+            
     
         </form>
+
 
     </body>
 
